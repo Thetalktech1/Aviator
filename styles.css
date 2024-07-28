@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:#f82bff ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+    : 0;
+}
+
+h1 {
+    color: #ff0a00;
+}
+
+#game {
+    position: relative;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #66f5c3e5;
+}
+
+#plane {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    transition: transform 3s;
+    animation: fly 5s linear to the border;
+}
+
+#coefficient {
+    position: absolute;
+    bottom: 10px;
+    center: 10px;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color:red ;   border-radius: 10px;
+  
+}
+
+#nextRound {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.loading.hidden {
+    display: none;
+}
+
+.loading {
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 55px;
+}
+
+}
+
